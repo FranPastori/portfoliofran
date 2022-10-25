@@ -7,12 +7,12 @@ header {
     background-color: #FF80BA;
     border-radius: 0 0 0 300vw;
     height: 20vw;
-    width: auto;
+    width:107vw;
 }
 .cabecalho__elemento__foto{
     position:absolute;
     top: 5vw;
-    right:5px;
+    right:1vw;
     width: 30vw;
     height: 30vw;
 }
@@ -27,7 +27,7 @@ header {
 .cabecalho__elemento__circulo1{
     position: absolute;
     top: 1vw;
-    right: -75px;
+    right: -7vw;
     width: 15vw;
     height: 15vw;
 }
