@@ -1,17 +1,39 @@
 body{
     background-color: #1B1413;
     background-image: url(padrao.png);
-    background-repeat: repeat-x;
+    background-repeat: repeat;
 }
 header {
     background-color: #FF80BA;
-    border-radius: 0 0 0 300px;
+    border-radius: 0 0 0 300vw;
+    height: 20vw;
+    width: auto;
+}
+.cabecalho__elemento__foto{
+    position:absolute;
+    top: 5vw;
+    right:5px;
+    width: 30vw;
+    height: 30vw;
+}
+
+.cabecalho__elemento__curva{
+    width: 10vw;
+    height: 10vw;
+}
+.cabecalho__elemento__circulo1{
+    width: 10vw;
+    height: 10vw;
+}
+.cabecalho__elemento__circulo2{
+    width: 30vw;
+    height: 30vw;
+}
+.cabecalho__elemento__triangulo{
+    width: 10vw;
+    height: 10vw;
 }
 main{
     
     color:aliceblue
-}
-img {
-    width: 200px;
-    height: 200px;
 }
