@@ -12,5 +12,13 @@
 <ul>
 
  <img  style= width:200px heigth:200px src="https://raw.githubusercontent.com/FranPastori/portfoliofran/main/Inserir%20um%20t%C3%ADtulo.png">
+ 
+  <img  style= width:200px heigth:200px src="https://raw.githubusercontent.com/FranPastori/portfoliofran/main/1.png">
+ 
+ 
+  <img  style= width:200px heigth:200px src="https://raw.githubusercontent.com/FranPastori/portfoliofran/main/2.png">
+ 
+ 
+  <img  style= width:200px heigth:200px src="https://raw.githubusercontent.com/FranPastori/portfoliofran/main/3.png">
   
   
