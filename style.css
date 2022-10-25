@@ -72,10 +72,7 @@ p{
     text-shadow: 0.1em 0.1em 0.2em rgb(165, 3, 76);
     font-weight: bold;
     text-align: center;
-    opacity: 0.8;
-}
-.titulo:hover{
-    opacity: 1;
+ 
 }
 .texto{
     margin-top: 10px;
