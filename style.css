@@ -18,20 +18,32 @@ header {
 }
 
 .cabecalho__elemento__curva{
-    width: 10vw;
-    height: 10vw;
+    position:absolute;
+    top: 1vw;
+    left:11vw;
+    width: 17vw;
+    height: 17vw;
 }
 .cabecalho__elemento__circulo1{
-    width: 10vw;
-    height: 10vw;
+    position: absolute;
+    top: 1vw;
+    right: -75px;
+    width: 15vw;
+    height: 15vw;
 }
 .cabecalho__elemento__circulo2{
+    position: absolute;
+    top: -16vw;
+    right: 30vw;
     width: 30vw;
     height: 30vw;
 }
 .cabecalho__elemento__triangulo{
-    width: 10vw;
-    height: 10vw;
+    position:absolute;
+    top: 0vw;
+    right:5px;
+    width: 20vw;
+    height: 20vw;
 }
 main{
     
