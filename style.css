@@ -1,0 +1,17 @@
+body{
+    background-color: #1B1413;
+    background-image: url(padrao.png);
+    background-repeat: repeat-x;
+}
+header {
+    background-color: #FF80BA;
+    border-radius: 0 0 0 300px;
+}
+main{
+    
+    color:aliceblue
+}
+img {
+    width: 200px;
+    height: 200px;
+}
