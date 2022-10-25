@@ -53,7 +53,7 @@ main{
     color:aliceblue
 }
 
-section{
+.sobremim {
     width: 80vw;
     padding: 5vw;
     margin:  10vw 10vw 10vw 10vw ;
@@ -63,9 +63,9 @@ p{
     margin-top: 1vw;
 }
 .titulo{
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 10px 0px 2px 10px;
-    width: 315px;
+    width: auto;
     height: 1.5em;
     background-color: #FF80BA;
     border-radius: 30px;
@@ -78,4 +78,24 @@ p{
     background-color:rgba(239, 25, 123, 0.5);
     border-radius: 30px;
   
+}
+.formacaoacademica {
+    width: 80vw;
+    padding: 5vw;
+    margin:  -10vw 10vw 10vw 10vw ;
+    text-align: justify;
+}
+.formacao{
+    margin-top: 2px;
+    padding: 10px;
+    background-color:rgba(239, 25, 123, 0.5);
+    border-radius: 30px;
+}
+.texto__curso{
+font-weight: bold;
+text-shadow: 0.1em 0.1em 0.2em black ;
+
+}
+.texto__ano{
+font-size: 0.5em;
 }
