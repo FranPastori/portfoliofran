@@ -2,19 +2,19 @@
 body{
     background-color: #1B1413;
     background-image: url(padrao.png);
-    background-repeat: repeat;
+    background-repeat:repeat;
     background-size: 40vw;
     font-family: 'Dosis', sans-serif;
     font-size: 2.5vw;
 }
 header {
-
-    top: 0vw;
+   
     background-color: #FF80BA;
     border-radius: 0 0 0 300vw;
     height: 22vw;
     width:107vw;
 }
+
 .cabecalho__elemento__foto{
     position:absolute;
     top: 5vw;
@@ -172,3 +172,26 @@ width: 45vw;
 height: 25vw;
 
 }
+
+
+.teste{
+
+    width: 200px;
+    height: 200px;
+}
+
+.projetos__containar{
+    display: grid;
+    background-color:rgba(239, 25, 123, 0.5);
+    border-radius: 30px;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.projetos__imagem{
+    width: 10vw;
+    height: auto;
+
+}
+
