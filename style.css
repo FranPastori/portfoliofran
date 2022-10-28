@@ -8,15 +8,17 @@ body{
     font-size: 2em;
 }
 header {
+
+    top: 0vw;
     background-color: #FF80BA;
     border-radius: 0 0 0 300vw;
-    height: 20vw;
+    height: 22vw;
     width:107vw;
 }
 .cabecalho__elemento__foto{
     position:absolute;
     top: 5vw;
-    right:1vw;
+    right:12vw;
     width: 30vw;
     height: 30vw;
 }
@@ -31,7 +33,7 @@ header {
 .cabecalho__elemento__circulo1{
     position: absolute;
     top: 1vw;
-    right: -7vw;
+    right: 0vw;
     width: 15vw;
     height: 15vw;
 }
@@ -45,7 +47,7 @@ header {
 .cabecalho__elemento__triangulo{
     position:absolute;
     top: 0vw;
-    right:5px;
+    right:0px;
     width: 20vw;
     height: 20vw;
 }
