@@ -18,7 +18,7 @@ header {
 .cabecalho__elemento__foto{
     position:absolute;
     top: 5vw;
-    right:12vw;
+    right:6vw;
     width: 30vw;
     height: 30vw;
 }
@@ -50,6 +50,32 @@ header {
     right:0px;
     width: 20vw;
     height: 20vw;
+}
+nav{
+    position: absolute;
+    top: 17vw;
+    right: 35vw;
+
+}
+nav li {
+   
+    display: inline;
+    margin-left: 30px;
+    text-transform: uppercase ;
+    width: 12%;
+    font-size: 14px;
+    font-weight: bold;
+}
+nav li a{
+    color:#1B1413;
+    text-shadow: 0.1em 0.1em 0.2em #EF197B;
+    text-decoration: none;
+}
+nav li:hover{
+    color: #FFDE59 ;
+    text-shadow: 0.1em 0.1em 0.2em #1B1413;
+    text-decoration:underline;
+
 }
 main{
     color:aliceblue
