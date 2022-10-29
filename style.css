@@ -180,18 +180,51 @@ height: 25vw;
     height: 200px;
 }
 
-.projetos__containar{
+.projetos__container{
     display: grid;
+    gap: 1vw;
+    align-items: center;
+    justify-items: center;
     background-color:rgba(239, 25, 123, 0.5);
     border-radius: 30px;
     justify-items: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'imagem  titulo'
+                        ' imagem  descricao'
+                        ' imagem  descricao'
+                        ' imagem  descricao'
+                        ' imagem link';
+    margin-top: 10vw;
 
 }
 
+
 .projetos__imagem{
+    grid-area: imagem;
     width: 10vw;
     height: auto;
 
 }
+.projetos__titulo{
+    grid-area: titulo;
 
+}
+.rojetos__descrição{
+    grid-area: descricao;
+
+}
+.projetos__link{
+    grid-area: link;
+
+}
+.container{
+
+    display: grid;
+}
+
+.intem__container{
+width: 100px;
+height: 100px;
+
+margin: 10px;
+
+}
