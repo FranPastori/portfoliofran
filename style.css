@@ -236,6 +236,7 @@ height: 25vw;
 
 }
 .projetos__descrição{
+    font-size: 0.6em;
     grid-area: descricao;
     text-align: justify;  
 }
