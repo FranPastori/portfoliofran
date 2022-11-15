@@ -188,20 +188,20 @@ font-size: 0.5em;
 .manual__navegacao__btn:hover{
     background-color: #FFDE59;
 }
-#radio1:checked ~.first {
+#radio1:checked ~ .first {
     margin-left: 0px;
 }
 #radio2:checked ~ .first {
     margin-left: -25%;
 }
 #radio3:checked ~ .first {
-    margin-left: 0px;
+    margin-left: -50%;
 }
 #radio4:checked ~ .first {
-    margin-left: 0px;
+    margin-left: -75%;
 }
 #radio5:checked ~ .first {
-    margin-left: 0px;
+    margin-left: -100%;
 }
 /* conteúdo*/
 .playlist__principal{
