@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -98,96 +99,51 @@
         </section>
         <section class="temas">
             <h2 class="titulo">Cursos Complementares</h2>
-            <div class="slider">
-                <div class="slides">
-                    <input type="radio" nome="radio-btn" id="radio1">
-                    <input type="radio" nome="radio-btn" id="radio2">
-                    <input type="radio" nome="radio-btn" id="radio3">
-                    <input type="radio" nome="radio-btn" id="radio4">
-                    <input type="radio" nome="radio-btn" id="radio5">
-                    <div class="slide first">
-                        <div class="cursosextras">
-                            <img src="images/1.png" class="cursosextras__imagem">
-                            <h3 class="texto__principal">
-                                Nome do curso
-                            </h3>
-                            <p aria-colcount="texto__simples">descrição</p>
-
+            <div class="carrossel">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <h3 class="swiper-titulo__curso">Nome do Curso</h3>
+                            <img class="swiper-imagem__curso" src="###">
+                            <p class="swiper-descricao__curso"> descrição do curso</p>
                         </div>
-                    </div>
-
-                    <div class="slide first">
-                        <div class="cursosextras">
-
-                            <h3 class="texto__principal">
-                                <img src="images/1.png" class="cursosextras__imagem">
-                                Nome do curso2
-                            </h3>
-                            <p aria-colcount="texto__simples">descrição</p>
-
+                        <div class="swiper-slide"><h3 class="swiper-titulo__curso">Nome do Curso</h3>
+                            <img class="swiper-imagem__curso" src="###">
+                            <p class="swiper-descricao__curso"> descrição do curso</p>
                         </div>
-                    </div>
-                    <div class="slide first">
-                        <div class="cursosextras">
-
-                            <img src="images/3.png" class="cursosextras__imagem">
-                            <h3 class="texto__principal">
-                                Nome do curso
-                            </h3>
-                            <p aria-colcount="texto__simples">descrição</p>
-
+                        <div class="swiper-slide"><h3 class="swiper-titulo__curso">Nome do Curso</h3>
+                            <img class="swiper-imagem__curso" src="###">
+                            <p class="swiper-descricao__curso"> descrição do curso</p>
                         </div>
+                        
                     </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
 
-                    <div class="slide first">
-                        <div class="cursosextras">
-                            <img src="images/1.png" class="cursosextras__imagem">
-                            <h3 class="texto__principal">
-                                Nome do curso
-                            </h3>
-                            <p aria-colcount="texto__simples">descrição</p>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
 
-                        </div>
-                    </div>
-
-                    <div class="slide first">
-                        <div class="cursosextras">
-                            <img src="images/1.png" class="cursosextras__imagem">
-                            <h3 class="texto__principal">
-                                Nome do curso
-                            </h3>
-                            <p aria-colcount="texto__simples">descrição</p>
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="navegacao__auto">
-                        <div class="navegacao__auto__btn1"></div>
-                        <div class="navegacao__auto__btn2"></div>
-                        <div class="navegacao__auto__btn3"></div>
-                        <div class="navegacao__auto__btn4"></div>
-                        <div class="navegacao__auto__btn5"></div>
-                        <div class="navegacao__auto__btn6"></div>
-                    </div>
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
                 </div>
-                <div class="manual__navegacao">
-                    <label for="radio1" class="manual__navegacao__btn"></label>
-                    <label for="radio2" class="manual__navegacao__btn"></label>
-                    <label for="radio3" class="manual__navegacao__btn"></label>
-                    <label for="radio4" class="manual__navegacao__btn"></label>
-                    <label for="radio5" class="manual__navegacao__btn"></label>
-                </div>
+
+
+
 
             </div>
+
+
         </section>
     </main>
     <footer>
 
 
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>

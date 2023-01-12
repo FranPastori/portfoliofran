@@ -129,26 +129,12 @@ text-shadow: 0.1em 0.1em 0.2em black ;
 .texto__simples{
 font-size: 0.5em;
 }
-.slider {
-    margin: 0 auto;
-    width: 25vw;
-    height: 22vw;
-    overflow: hidden;
 
-}
-.slides{
-    width: 400%;
-    height: 22vw;
-    display: flex;
-}
-.slides input {
-    display: none;
-}
-.slide{
-    width: 25%;
-    position: relative;
-}
-.cursosextras{
+
+
+
+
+.swiper-slides{
     display:flex ;
     flex-direction: column; 
     justify-content: center;
@@ -159,7 +145,7 @@ font-size: 0.5em;
     align-items: center;
     margin: 2vw;
 }
-.cursosextras__imagem{
+.swiper-imagem__curso{
     width: 5vw;
     height: 5vw;
     border-radius: 100%;
@@ -167,42 +153,9 @@ font-size: 0.5em;
     padding: 2vw;
    
 }
-.manual__navegacao{
-    position: absolute;
-    width: 25vw;
-    margin-top: -26px;
-    display: flex;
-    justify-content: center;
-}
-.manual__navegacao__btn{
-    border: solid 2px  #FF80BA;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    
-    transition: 1s;
-}
-.manual__navegacao__btn:not(:last-child){
-    margin-right: 30px;
-}
-.manual__navegacao__btn:hover{
-    background-color: #FFDE59;
-}
-#radio1:checked ~ .first {
-    margin-left: 0px;
-}
-#radio2:checked ~ .first {
-    margin-left: -25%;
-}
-#radio3:checked ~ .first {
-    margin-left: -50%;
-}
-#radio4:checked ~ .first {
-    margin-left: -75%;
-}
-#radio5:checked ~ .first {
-    margin-left: -100%;
-}
+
+
+
 /* conteúdo*/
 .playlist__principal{
     display: flex;
