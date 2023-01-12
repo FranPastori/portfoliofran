@@ -262,17 +262,16 @@ height: 25vw;
     border-radius: 30px;
     text-shadow: 0.1em 0.1em 0.2em rgb(165, 3, 76);
     font-weight: bold;
-    text-align: center; 
-}
-a{
-    padding: 0.5vw;
-}
-button a {
-    text-decoration: none;
+    text-align: center;
+    text-decoration: none; 
     color: aliceblue;
+    padding: 0.5vw;
+
 }
 
-button:active{
+    
+
+.projetos__link:active{
     transform: scale(0.98);
 }
 button a:hover{
