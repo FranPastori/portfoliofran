@@ -254,11 +254,7 @@ height: 25vw;
 
 .projetos__link{
     grid-area: link;
-    font-size: 0.8em}
-
-button  {
-    
-    
+    font-size: 0.8em;
     background-color: #FF80BA;
     padding: 10px 0px 2px 10px;
     width: 20vw;
