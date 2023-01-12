@@ -134,7 +134,7 @@ font-size: 0.5em;
 
 
 
-.swiper-slides{
+.swiper-slide{
     display:flex ;
     flex-direction: column; 
     justify-content: center;
